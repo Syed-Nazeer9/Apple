@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: fixed-end;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: hsl(0, 0%, 0%, 0.8);
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 45px;
+}
+.logo{
+    height: 40px;
+    padding: 10px 5px 10px 230px;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+
+}
+.nav_links li a{
+    transition: all 0.3s case 0s;
+    text-decoration: none;
+    color: hsl(0, 0%, 80%);
+
+}
+.nav_links li a:hover{
+    color: hsl(34, 78%, 91%);
+}
+.img1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(./Image/Apple-iPhone-14-iPhone-14-Plus.jpg);
+    background-size: cover;
+}
+
+.text1{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+}
+.div_links1 li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.div_links1 li a{
+    transition: all 0.3s case 0s;
+    text-decoration: none;
+    color: peru;
+
+}
+.img2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(./Image/img2.jpg);
+    background-size: cover;
+}
+
+.text2{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+    color: hsl(208, 100%, 97%);
+}
+.div_links2 li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.div_links2 li a{
+    transition: all 0.3s case 0s;
+    text-decoration: none;
+    color: peru;
+}
+.fcontainer{
+    border: 1px solid white;
+    height: 51vh;
+    display: flex;
+}
+.img3{
+    width: 100%;
+    height: 50vh;
+    margin: 5px;
+    position: relative;
+    background-image: url(./Image/img3.jpg);
+    background-size: cover;
+}
+
+.text3{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+    color: hsl(208, 100%, 97%);
+}
+.div_links3 li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.div_links3 li a{
+    transition: all 0.3s case 0s;
+    text-decoration: none;
+    color: peru;
+}
+.img4{
+    width: 100%;
+    height: 50vh;
+    margin: 5px;
+    position: relative;
+    background-image: url(./Image/img4.jpg);
+    background-size: cover;
+}
+
+.text4{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+}
+.div_links4 li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.div_links4 li a{
+    transition: all 0.3s case 0s;
+    text-decoration: none;
+    color: peru;
+} 
+.fcontainer2{
+    border: 1px solid white;
+    height: 50vh;
+    display: flex;
+}
+
+.img5{
+    width: 100%;
+    height: 50vh;
+    margin: 5px;
+    position: relative;
+    background-image: url(./Image/img6.jpg);
+    background-size: cover;
+}
+
+.text5{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+.div_links5 li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.div_links5 li a{
+    transition: all 0.3s case 0s;
+    text-decoration: none;
+    color: peru;
+}
+
+.img6{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    margin: 5px;
+    background-image: url(./Image/img5.jpg);
+    background-size: cover;
+}
+
+.text6{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-size: 15px;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.div_links6 li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.div_links6 li a{
+    transition: all 0.3s case 0s;
+    text-decoration: none;
+    color: peru;
+}
+.list{
+    background-color: hsl(60, 56%, 95%);
+    margin: 0;
+    padding: 1% 18% 1% 18%;
+    display: inline-block;
+    justify-content: center;
+   list-style: none;
+}
+
+.footer{
+    background-color: hsl(60, 56%, 95%);
+    display: flex;
+    margin: auto;
+    padding: 60px 18px 1px 290px;
+    list-style: none;
+}
+
+.sec1 li a{
+    transition: all 0.3s case 0s;
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    list-style: none;
+   padding: 10px 90px 10px 1px;
+   
+   
+}
+.sec2 li a{
+    transition: all 0.3s case 0s;
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    list-style-type: none;
+    padding: 10px 60px 10px 1px;
+}
+.sec3 li a{
+    transition: all 0.3s case 0s;
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    list-style-type: none;
+    padding: 10px 60px 10px 1px;
+}
+.sec4 li a{
+    transition: all 0.3s case 0s;
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    list-style-type: none;
+    list-style-type: none;
+    padding: 10px 60px 10px 1px;
+}
+.sec5 li a{
+    transition: all 0.3s case 0s;
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
